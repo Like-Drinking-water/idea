@@ -1,0 +1,20 @@
+version: "3.1"
+services:
+  idea-eureka-1:
+    image: 192.168.198.130:5000/idea-eureka
+    restart: always
+    container_name: idea-eureka-1
+    ports:
+      - 8761:8761
+#  idea-eureka-2:
+#    image: 192.168.198.130:5000/idea-eureka
+#    restart: always
+#    container_name: idea-eureka-2
+#    ports:
+#      - 8861:8761
+#  idea-eureka-3:
+#    image: 192.168.198.130:5000/idea-eureka
+#    restart: always
+#    container_name: idea-eureka-3
+#    ports:
+#      - 8961:8761

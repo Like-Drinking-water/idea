@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huanleichen.idea.common.service.mapper.IdeaPostsPostMapper">
+  <resultMap id="BaseResultMap" type="com.huanleichen.idea.common.domain.IdeaPostsPost">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="post_guid" jdbcType="VARCHAR" property="postGuid" />
+    <result column="time_published" jdbcType="TIMESTAMP" property="timePublished" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="post_adress" jdbcType="DECIMAL" property="postAdress" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="thumb_image" jdbcType="VARCHAR" property="thumbImage" />
+    <result column="number_of_upvotes" jdbcType="DECIMAL" property="numberOfUpvotes" />
+    <result column="number_of_downvotes" jdbcType="DECIMAL" property="numberOfDownvotes" />
+    <result column="number_of_reads" jdbcType="DECIMAL" property="numberOfReads" />
+    <result column="number_of_shares" jdbcType="DECIMAL" property="numberOfShares" />
+    <result column="number_of_bookmarks" jdbcType="DECIMAL" property="numberOfBookmarks" />
+    <result column="number_of_comments" jdbcType="DECIMAL" property="numberOfComments" />
+    <result column="reject_msg" jdbcType="VARCHAR" property="rejectMsg" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+    <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="like_num" jdbcType="INTEGER" property="likeNum" />
+    <result column="summary" jdbcType="LONGVARCHAR" property="summary" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+</mapper>

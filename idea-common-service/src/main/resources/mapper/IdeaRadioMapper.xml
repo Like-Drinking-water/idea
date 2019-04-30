@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huanleichen.idea.common.service.mapper.IdeaRadioMapper">
+  <resultMap id="BaseResultMap" type="com.huanleichen.idea.common.domain.IdeaRadio">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="concern_number" jdbcType="INTEGER" property="concernNumber" />
+    <result column="post_number" jdbcType="INTEGER" property="postNumber" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+    <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="announcement" jdbcType="LONGVARCHAR" property="announcement" />
+    <result column="cover" jdbcType="CHAR" property="cover" />
+  </resultMap>
+</mapper>

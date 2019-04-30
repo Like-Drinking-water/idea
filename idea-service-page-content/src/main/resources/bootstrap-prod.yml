@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.198.138:8888
+      name: service-page-content, database-page-content, zipkin-client, redis-client, mybatis, admin-client, eureka-client
+      label: master
+      profile: prod
