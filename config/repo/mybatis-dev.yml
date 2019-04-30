@@ -1,0 +1,5 @@
+mybatis:
+  configuration:
+    cache-enabled: true
+  type-aliases-package: com.huanleichen.idea.common.domain
+  mapper-locations: classpath:mapper/*.xml

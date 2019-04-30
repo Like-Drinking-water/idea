@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: idea-service-posts-commit
+
+server:
+  port: 8506

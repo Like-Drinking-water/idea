@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: idea-service-redis
+
+server:
+  port: 8502

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: idea-service-page-content
+
+server:
+  port: 8509

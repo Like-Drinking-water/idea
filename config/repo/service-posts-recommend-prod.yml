@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: idea-service-posts-recommond
+
+server:
+  port: 8504

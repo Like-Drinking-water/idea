@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: idea-service-sso
+
+server:
+  port: 8503

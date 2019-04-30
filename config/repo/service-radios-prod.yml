@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: idea-service-radios
+
+server:
+  port: 8508

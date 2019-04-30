@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: idea-service-posts-search
+
+server:
+  port: 8507
