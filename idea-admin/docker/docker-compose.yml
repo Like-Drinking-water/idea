@@ -1,0 +1,8 @@
+version: "3.1"
+services:
+  idea-admin:
+    image: 192.168.198.130:5000/idea-admin
+    restart: always
+    container_name: idea-admin
+    ports:
+      - 8084:8084
